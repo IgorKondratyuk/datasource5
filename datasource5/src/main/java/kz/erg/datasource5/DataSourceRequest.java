@@ -22,7 +22,6 @@ import io.swagger.annotations.ApiModelProperty;
 public class DataSourceRequest
 	implements Serializable{
 
-	
 	private StringBuilder sql;
     
     @ApiModelProperty(notes = "номер страницы", allowEmptyValue = false, required=true, position = 0)
